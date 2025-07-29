@@ -1,0 +1,48 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+  background: #111;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding-top: 20vh;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.buttons a {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 12px 24px;
+  margin: 0 10px;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.buttons a:hover {
+  background: white;
+  color: black;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 20px;
+}
